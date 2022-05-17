@@ -1,0 +1,25 @@
+table{
+    width: 500px;  
+    height: 330px;  
+    margin: 20px auto;  
+    border: 3px solid black;  
+    border-radius: 20px;  
+    padding: 20px;  
+    text-align: center;  
+    background-color: #9dcedf;  
+}
+.btn{  
+    width: 55px;  
+    height: 55px;  
+    font-size: 30px;  
+    margin: 3px;    
+    background-color: rgb(182, 206, 203);  
+    border-radius: 5px;      
+    }  
+#view{
+    width: 450px;  
+    height: 40px;  
+    font-size: 30px;  
+    margin: 3px;    
+    background-color: rgb(182, 206, 203);       
+}

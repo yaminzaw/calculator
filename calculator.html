@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="3"><input id = "view" value="" readonly></td>
+                <!-- <td><input class = "btn" type = "button" value = "x" onclick="clear()"></td> -->
+                <td><input class = "btn" type = "button" value = "x" onclick="clearBtn()"></td>
+            </tr>
+            <tr>
+                <td><input class = "btn" type = "button" value = "1" onclick="numberAdd(1)"></td>
+                <td><input class = "btn" type = "button" value = "2" onclick="numberAdd(2)"></td>
+                <td><input class = "btn" type = "button" value = "3" onclick="numberAdd(3)"></td>
+                <td><input class = "btn" type = "button" value = "/" onclick="operator('/')"></td>
+            </tr>
+            <tr>
+                <td><input class = "btn" type = "button" value = "4" onclick="numberAdd(4)"></td>
+                <td><input class = "btn" type = "button" value = "5" onclick="numberAdd(5)"></td>
+                <td><input class = "btn" type = "button" value = "6" onclick="numberAdd(6)"></td>
+                <td><input class = "btn" type = "button" value = "*" onclick="operator('*')"></td>
+            </tr>
+            <tr>
+                <td><input class = "btn" type = "button" value = "7" onclick="numberAdd(7)"></td>
+                <td><input class = "btn" type = "button" value = "8" onclick="numberAdd(8)"></td>
+                <td><input class = "btn" type = "button" value = "9" onclick="numberAdd(9)"></td>
+                <td><input class = "btn" type = "button" value = "-" onclick="operator('-')"></td>
+            </tr>
+            <tr>
+                <td><input class = "btn" type = "button" value = "00" onclick="numberAdd('00')"></td>
+                <td><input class = "btn" type = "button" value = "0" onclick="numberAdd(0)"></td>
+                <td><input class = "btn" type = "button" value = "+" onclick="operator('+')"></td>
+                <td><input class = "btn" type = "button" value = "=" onclick="result()"></td>
+            </tr>
+        </table>
+    </body>
+</html>
